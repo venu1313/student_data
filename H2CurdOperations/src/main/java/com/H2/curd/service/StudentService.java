@@ -18,6 +18,7 @@ public StudentEntity addStudentEntity(StudentEntity student) {
 }
   
 public List<StudentEntity> addStudentsEntity(List<StudentEntity> studentsentity){
+	//students details store to db
 	return studentrepo.saveAll(studentsentity);
 }
 
